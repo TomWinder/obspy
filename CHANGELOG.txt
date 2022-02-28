@@ -39,6 +39,9 @@ Changes:
      numpy 1.22 (see #2912, #2913)
    * fix iso8601 regex for issue #2868 to cope with day 360 properly
    * fix crash when resampling very short traces (see #2926)
+ - obspy.clients.arclink:
+   * submodule removed completely, since ArcLink was officially deprecated and
+     deactivated on all big datacenters years ago (see #...)
  - obspy.clients.fdsn:
    * introduce fine-grained FDSN client exceptions (see #2653, #2964)
    * support for "eventtype" parameter in get_events(), as specified in version
